@@ -9,43 +9,48 @@
         .container{
             height:1080px;
         }
-        .column_left{
+        .menu_1{
             float:left;
-            width:40%;
             height:1080px;
-        }  
-        .col_left2{
-            width:50%;
-            background: green;
-            height:1080px;
-            float:left;
+            width:20%;
         }
-        .col_left1{
-            width:50%;
-            background: red;
-            height:1080px;
-            float:left;
+        .menu_1 .menu1_up{
+            height:60%;
+            background: gray;
         }
-      
+        .menu_1 .menu1_down{
+            height:40%;
+            background:red;
+        }
+        .menu_2{
+            float:right;
+            height:1080px;
+            width:20%;
+        }
+        .menu_2 .menu2_up{
+            height:80%;
+            background: gray;
+        }
+        .menu_2 .menu2_down{
+            height:20%;
+            background:red;
+        }
+        .content{
+            margin-left:20%;
+            margin-right:20%;
+            height:1080px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="column_left">
-            <div class="col_left1">
-                <div class="col_left1_up"></div>
-                <div class="col_left1_down"></div>
-            </div>
-            <div class="col_left2">
-                <div class="col_left2_up"></div>
-                <div class="col_left2_down"></div>
-            </div>
+        <div class="menu_1">
+            <div class="menu1_up"></div>
+            <div class="menu1_down"></div>
         </div>
-        <div class="column_right">
-            <div class="col_right">
-                <div class="col_right_up"></div>
-                <div class="col_right_down"></div>
-            </div>
+        <div class="menu_2">
+            <div class="menu2_up"></div>
+            <div class="menu2_down"></div>
         </div>
         <div class="content"></div>
     </div>

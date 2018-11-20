@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container{
+            height:1080px;
+        }
+        .column_left{
+            float:left;
+            width:40%;
+            height:1080px;
+        }  
+        .col_left2{
+            width:50%;
+            height:1080px;
+            float:left;
+            border-right: #0f0202;
+        }
+        .col_left1{
+            width:50%;
+            height:1080px;
+            float:left;
+        }
+        .col_left1_up{
+            height:80%;
+            background:grey;
+        }
+        .col_left1_down{
+            height:20%;
+            background: blue;
+        }
+        .col_left2_up{
+            height:80%;
+            background:grey;
+        }
+        .col_left2_down{
+            height:20%;
+            background: blue;
+        }
+        .column_right{
+            float:right;
+            width:20%;
+            height:1080px;
+            background:green;
+        }
+        .col_right_up{
+            height:80%;
+            background:grey;
+        }
+        .col_right_down{
+            height:20%;
+            background: blue;
+        }
+        .content{
+            background: red;
+            margin-left: 40%;
+            margin-right:20%;
+            height:1080px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column_left">
+            <div class="col_left1">
+                <div class="col_left1_up"></div>
+                <div class="col_left1_down"></div>
+            </div>
+            <span></span>
+            <div class="col_left2">
+                <div class="col_left2_up"></div>
+                <div class="col_left2_down"></div>
+            </div>
+        </div>
+        <div class="column_right">
+                <div class="col_right_up"></div>
+                <div class="col_right_down"></div>
+        </div>
+        <div class="content"></div>
+    </div>
+</body>
+</html>
